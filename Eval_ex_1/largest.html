@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Largest of 5nos</h2>
+
+
+
+<script>
+    function largest(a,b,c,d,e){
+       var max1 = a > b ?(a > c ? a : c):(b > c ? b : c);
+       var max2= max1>d?(max1>e?max1:e):(d>e?d:e);
+       return max2;
+    }
+    document.write(largest(3,18,2,9,0));
+</script>
+
+</body>
+</html>

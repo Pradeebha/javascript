@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function hasKey(obj, key) {
+    return obj != null && hasOwnProperty.call(obj, key);
+  }
+document.write(hasKey({red: "#FF0000", green: "#00FF00", white: "#FFFFFF"}, "green"));
+
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+</body>
+</html>
